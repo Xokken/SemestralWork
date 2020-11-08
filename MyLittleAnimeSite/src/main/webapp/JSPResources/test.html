@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body><footer>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" href="/MyLittleAnimeSite_war/gates/home">Главная</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/MyLittleAnimeSite_war/gates/profile">Профиль</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Опросы</a>
+        </li>
+    </ul>
+</footer>
+
+<div class="container">
+    <div>
+        <form action="home/girls" id="Claymore1" method="get">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">
+                    <img src="/MyLittleAnimeSite_war/worldImg/Claymore.jpg" class="img-thumbnail" width="200px" sizes="" height="200px">
+                    <input type="text" name="worldName" value="Claymore" hidden="true">
+                    <input type="text" name="worldImg" value="/worldImg/Claymore.jpg" hidden="true">
+                    <a onclick="document.getElementById('Claymore1').submit(); return false;" href="/MyLittleAnimeSite_war/gates/home/girls">Claymore</a></li>
+            </ul>
+        </form>
+        <form action="home/girls" id="Nasuverse1" method="get">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">
+                    <img src="/MyLittleAnimeSite_war/worldImg/Nasuverse.jpg" class="img-thumbnail" width="200px" sizes="" height="200px">
+                    <input type="text" name="worldName" value="Nasuverse" hidden="true">
+                    <input type="text" name="worldImg" value="/worldImg/Nasuverse.jpg" hidden="true">
+                    <a onclick="document.getElementById('Nasuverse1').submit(); return false;" href="/MyLittleAnimeSite_war/gates/home/girls">Nasuverse</a></li>
+            </ul>
+        </form>
+        <form action="home/girls" id="Mirai Nikki1" method="get">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">
+                    <img src="/MyLittleAnimeSite_war/worldImg/Mirai Nikki.jpg" class="img-thumbnail" width="200px" sizes="" height="200px">
+                    <input type="text" name="worldName" value="Mirai Nikki" hidden="true">
+                    <input type="text" name="worldImg" value="/worldImg/Mirai Nikki.jpg" hidden="true">
+                    <a onclick="document.getElementById('Mirai Nikki1').submit(); return false;" href="/MyLittleAnimeSite_war/gates/home/girls">Mirai Nikki</a></li>
+            </ul>
+        </form>
+    </div>
+    <div>
+
+            <img src="http://127.0.0.1:8887//hostImg/xokkeuct12832@gmail.com1.jpg" class="img-thumbnail" width="200px" height="200px">
+            <p class="text-left">Имя Алексей Дьяконов</p>
+            <p class="text-left">Почта xokkeuct12832@gmail.com</p>
+            <p class="text-left">Возраст 15</p>
+    </div>
+</div>
+<div>
+    <img src="http://127.0.0.1:8887/${img}"
+         class="img-thumbnail"
+         width="200px"
+         height="200px">
+    <p class="text-left">Имя ${name}</p>
+    <p class="text-left">Почта ${email}</p>
+    <p class="text-left">Возраст ${age}</p>
+</div>
+</body>
+</html>

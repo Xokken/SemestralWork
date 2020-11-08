@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.text {
+    color: #4c4a37; font-family: ‘Source Sans Pro’, sans-serif; font-size: 18px; line-height: 32px;
+    margin-right: 10px;
+}
+
+.img {
+    float: right;
+}
+
+p {
+    color: #4c4a37; font-family: ‘Source Sans Pro’, sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px;
+}
+
+a:hover {
+    color: #3a7999;
+    background: rgba(0,0,0,0);
+}
+
+body{
+    background: #3F92D2;
+}
+
+footer{
+    background:#25567B;
+}
+
+
+.nav-link, a{
+    color: #FF4900;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+}

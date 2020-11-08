@@ -1,0 +1,12 @@
+  # packages #
+**/.idea/
+.git/
+**/out/
+**/target/
+**/lib/
+**/resources/
+
+# files #
+*.iml
+*.class
+*.properties
